@@ -28,9 +28,7 @@ const Home = ()  => {
     const notesMarkup = !isLoaded(notes) ? (
         <div>Loading...</div>
     ) : (
-        isEmpty(notes) ? (
-            null
-        ) : (
+        (
             <>
                 <NavBar />
                 <Container style={{ paddingTop: '8rem'}}>
