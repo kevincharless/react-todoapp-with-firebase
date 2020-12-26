@@ -36,3 +36,55 @@
     transform: rotate(360deg);
   }
 }
+
+#NavBlack {
+  background-color: #263238;
+}
+
+#NavBrand {
+  color: #263238;
+  font-weight: 700;
+  text-decoration:none;
+}
+
+#NavBrandBlack {
+  color: #FCF9F9;
+  font-weight: 700;
+  text-decoration:none;
+}
+
+#NavLink {
+  color: #263238;
+  font-weight: 500;
+}
+
+#NavLinkBlack {
+  color: #FCF9F9;
+  font-weight: 500;
+}
+
+#NavLinkNotGrey {
+  color: #516B78;
+  font-weight: 500;
+}
+
+#NavLinkGrey {
+  color: rgb(252, 249, 249, 0.9);
+  font-weight: 500;
+}
+
+#NavLink, #NavLinkBlack, #NavLinkGrey :hover {
+  cursor: pointer;
+}
+
+#TextButton {
+  color: #57CC99;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.rectangle {
+  height: 0.3rem;
+  width: 12rem;
+  background-color: #57CC99;
+}
